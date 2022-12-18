@@ -1,0 +1,5 @@
+{
+    "Lua.diagnostics.globals": [
+        "PLAYER_PED"
+    ]
+}
