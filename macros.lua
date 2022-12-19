@@ -91,13 +91,13 @@ function main()
             end
         end
 
-        -- Cerrar coche
-        if isKeyDown(vkey.VK_LMENU) then
-            if isKeyJustPressed(vkey.VK_V) then
-                sampSetChatInputText('/vender ');
-                sampSetChatInputEnabled(true);
-            end
-        end
+        
+        -- if isKeyDown(vkey.VK_LMENU) then
+        --     if isKeyJustPressed(vkey.VK_V) then
+        --         sampSetChatInputText('/vender ');
+        --         sampSetChatInputEnabled(true);
+        --     end
+        -- end
 
         -- Proteger
         if isKeyDown(vkey.VK_LMENU) then
@@ -224,12 +224,12 @@ function main()
             end
         end
 
-        -- Decir gracias
-        if isKeyDown(vkey.VK_LMENU) then
-            if isKeyJustPressed(vkey.VK_NUMPAD0) then
-                sampSendChat('Gracias');
-            end
-        end
+        -- -- Decir gracias
+        -- if isKeyDown(vkey.VK_LMENU) then
+        --     if isKeyJustPressed(vkey.VK_NUMPAD0) then
+        --         sampSendChat('Gracias');
+        --     end
+        -- end
 
         -- Aceptar arma
         if isKeyDown(vkey.VK_LMENU) then
